@@ -24,6 +24,7 @@ div {
     font-family: 'Roboto', sans-serif;
     border: 1px solid white; 
     min-width: 400px;
+    margin-bottom: 100px; 
     
 }
 
