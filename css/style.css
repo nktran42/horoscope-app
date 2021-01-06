@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/gold_zodiac.jpg');
+    background-size: cover; 
+}
+
+div {
+    text-align: center;
+    background: #B87D00;
+    margin: 0 auto; 
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 100px 50px; 
+    margin-top: 200px; 
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white; 
+    min-width: 400px;
+    
+}
+
+label {
+    font-size: 1.25rem; 
+    margin-top: 20px; 
+}
+
+input {
+    width: 70%; 
+    margin-top: 20px; 
+    padding: 5px 10px;
+}
+
+button {
+    width: 70%; 
+    border-radius: 3px; 
+    border-style: none; 
+    padding: 12px; 
+    margin-top: 20px; 
+    background-color: rgb(244, 247, 98);
+    font-weight: 700; 
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    }
+
+button:hover{
+    background-color: rgb(209, 191, 35);
+}
+
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.0875rem;
+    margin: 0;
+}
+
+h3{
+    padding: 30px;
+}
